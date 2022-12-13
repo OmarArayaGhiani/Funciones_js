@@ -1,0 +1,46 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#ele1, #ele2, #ele3 {
+    margin: 10px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+#caja1, #caja2, #caja3, #caja4 {
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+#caja1 {
+    background-color: red;
+}
+
+#caja2 {
+    background-color: green;
+}
+
+#caja3 {
+    background-color: yellow;
+}
+
+#caja4 {
+    background-color: gray;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px
+}
